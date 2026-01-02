@@ -15,7 +15,7 @@ RUN npm run build
 # -----------------------------
 # 2) Runtime (PHP + Nginx)
 # -----------------------------
-FROM webdevops/php-nginx:8.1
+FROM webdevops/php-nginx:8.0
 
 ENV WEB_DOCUMENT_ROOT=/app/public
 
